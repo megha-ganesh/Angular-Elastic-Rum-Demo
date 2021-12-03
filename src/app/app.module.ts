@@ -38,35 +38,9 @@ export class AppModule {
       'username': 'foo',
       'id': 'bar'
     })
-
-    //apm1 = apm;
-    // const transaction = apm.startTransaction()
-    // const url = 'http://example.com/data.json'
-    // const httpSpan = transaction.startSpan('GET ' + url, 'external.http')
-    // fetch(url)
-    //   .then((resp) => {
-    //     if (!resp.ok) {
-    //       apm.captureError(new Error(`fetch failed with status ${resp.status} ${resp.statusText}`))
-    //     }
-    //     httpSpan.end()
-    //     transaction.end()
-    //   })
-
-    
   }
 }
 
-// const transaction = apm1.startTransaction('Application start', 'custom')
-// const url = 'http://example.com/data.json'
-// const httpSpan = transaction.startSpan('GET ' + url, 'external.http')
-// fetch(url)
-//   .then((resp) => {
-//     if (!resp.ok) {
-//       apm1.captureError(new Error(`fetch failed with status ${resp.status} ${resp.statusText}`))
-//     }
-//     httpSpan.end()
-//     transaction.end()
-//   })
 
 
 
